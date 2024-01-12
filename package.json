@@ -1,6 +1,6 @@
 {
   "name": "drogal-ui-teste-4",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -25,7 +25,15 @@
     "build-storybook": "storybook build",
     "release_patch": "npm version patch && npm publish --access public"
   },
-  "files": ["dist", "src", "types", "Button.css", "Button.d.ts", "Button.js", "Button.js.map"],
+  "files": [
+    "dist",
+    "src",
+    "types",
+    "Button.css",
+    "Button.d.ts",
+    "Button.js",
+    "Button.js.map"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",

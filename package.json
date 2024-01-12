@@ -16,7 +16,7 @@
     "web-vitals": "^2.1.4",
     "main": "dist/index.tsx",
     "module": "dist/index.modern.js",
-    "source": "src/index.tsx",
+    "source": "src/index.tsx"
   },
   "scripts": {
     "start": "react-scripts start",
